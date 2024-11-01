@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Teka Teki Sulit | Farhan</title>
+    <link rel="stylesheet" href="tts-game.css">
+  </head>
+
+  <body style="background-color: #f4f3f3">
+    <script src="REAL1.js"></script>
+    <header
+      style="
+        background: linear-gradient(45deg, #2bd884, #23ac3c);
+        margin: 0;
+        padding: 1% 1% 1% 2%;
+        color: #fff;
+      "
+    >
+      <nav style="display: flex; justify-content: space-between">
+        <h1>
+            TEKA TEKI SULIT by Farhaan
+        </h1>
+      </nav>
+    </header>
+    <section style="margin: 3% 2%">
+      <div>
+        <button class="cek_jawaban" id="cek_jawaban">CEK JAWABAN</button>
+        <button class="reset" id="reset">Reset</button>
+      </div>
+
+      <!-- TTS Table -->
+      <h2 id="score">Skor: 0/100</h2>
+      <div class="container">
+        <table>
+          <tr>
+            <td>
+              <div>
+                <label id="no1">1</label>
+                <input type="text" id="1-1" maxlength="1" autocomplete="off" />
+              </div>
+            </td>
+            <td>
+            </td>
+            <td>
+              <label>2</label>
+              <input type="text" id="1-3" maxlength="1" autocomplete="off" />
+            </td>
+            <td>
+            </td>
+            <td>
+              <div>
+              </div>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <label>1</label>
+              <input type="text" id="2-1" maxlength="1" autocomplete="off" />
+            </td>
+            <td>
+                <input type="text" id="2-2" maxlength="1" autocomplete="off" />
+            </td>
+            <td>
+                <input type="text" id="2-3" maxlength="1" autocomplete="off" />
+            </td>
+            <td></td>
+            <td>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" id="3-1" maxlength="1" autocomplete="off" />
+            </td>
+            <td></td>
+            <td>
+                <label>2</label>
+                <input type="text" id="3-3" maxlength="1" autocomplete="off" />
+            </td>
+            <td>
+                <input type="text" id="3-4" maxlength="1" autocomplete="off" />
+            </td>
+            <td>
+              <label>3</label>  
+              <input type="text" id="3-5" maxlength="1" autocomplete="off" />
+            </td>
+            <td>
+                <input type="text" id="3-6" maxlength="1" autocomplete="off" />
+            </td>
+            <td></td>
+            <td></td>
+            <td>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+              <input type="text" id="4-5" maxlength="1" autocomplete="off" />
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+            </td>
+            <td>
+              <input type="text" id="5-5" maxlength="1" autocomplete="off" />
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <label>3</label>
+                <input type="text" id="6-4" maxlength="1" autocomplete="off" />
+            </td>
+            <td>
+              <input type="text" id="6-5" maxlength="1" autocomplete="off" />
+            </td>
+            <td>
+                <input type="text" id="6-6" maxlength="1" autocomplete="off" />
+            </td>
+            <td></td>
+            <td></td>
+            <td>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>
+                <label>4</label>
+                <input type="text" id="7-3" maxlength="1" autocomplete="off" />
+            </td>
+            <td></td>
+            <td>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+            </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>
+                <label>4</label>
+                <input type="text" id="8-1" maxlength="1" autocomplete="off" />
+            </td>
+            <td>
+                <input type="text" id="8-2" maxlength="1" autocomplete="off" />
+            </td>
+            <td>
+                <input type="text" id="8-3" maxlength="1" autocomplete="off" />
+            </td>
+            <td>
+                <label>5</label>
+                <input type="text" id="8-4" maxlength="1" autocomplete="off" />
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+                <label>5</label>
+                <input type="text" id="9-3" maxlength="1" autocomplete="off" />
+            </td>
+            <td>
+                <input type="text" id="9-4" maxlength="1" autocomplete="off" />
+            </td>
+            <td>
+                <input type="text" id="9-5" maxlength="1" autocomplete="off" />
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+                <input type="text" id="10-4" maxlength="1" autocomplete="off" />
+            </td>
+            <td>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        <div
+          style="
+            background-color: #fff;
+            width: 50%;
+            padding: 5px 20px;
+            border: 1px solid transparent;
+            border-radius: 20px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            color: #212121;
+          "
+        >
+
+        
+          <h2>Mendatar</h2>
+          <ol>
+            <li>Singkatan dari Domain Name System</li>
+            <li>Bahasa Inggris Bola</li>
+            <li>Verb 2 dari Makan</li>
+            <li>Bahasa Pemrograman Untuk Android</li>
+            <li>Posisi Ketua Perusahaan</li>
+          </ol>
+          <h2>Menurun</h2>
+          <ol>
+            <li>Singkatan dari Integrated Development Environment</li>
+            <li>Singkatan dari Universal Serial Bus</li>
+            <li>Bahasa Inggris "Kiri"</li>
+            <li>Singkatan dari Model-View-Controller</li>
+            <li>Bahasa Slenk dari "Air"</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <script>
+        function cekCell(baris_kolom, jawaban_benar) {
+        const cell = document.getElementById(baris_kolom);
+        cell.classList.remove("correct", "wrong");
+
+        if (cell.value.toUpperCase() === jawaban_benar) {
+          cell.classList.add("correct");
+        } else {
+          cell.classList.add("wrong");
+        }
+
+        document.getElementById("no1").classList.add("text-white");
+        return cell.classList;
+      }
+
+      document.getElementById("cek_jawaban").onclick = function () {
+        let score = 0;
+        let t1 = "wrong";
+        let t2 = "wrong";
+        let t3 = "wrong";
+        let t4 = "wrong";
+        let t5 = "wrong";
+
+        let d1 = "wrong";
+        let d2 = "wrong";
+        let d3 = "wrong";
+        let d4 = "wrong";
+        let d5 = "wrong";
+
+        // Menurun
+        cekCell("1-1", "I");
+        cekCell("2-1", "D");
+        cekCell("3-1", "E");
+        
+        cekCell("1-3", "U");
+        cekCell("2-3", "S");
+        cekCell("3-3", "B");
+
+        cekCell("3-5", "L");
+        cekCell("4-5", "E");
+        cekCell("5-5", "F");
+        cekCell("6-5", "T");
+
+        cekCell("7-3", "M");
+        cekCell("8-3", "V");
+        cekCell("9-3", "C");
+
+        cekCell("8-4", "A");
+        cekCell("9-4", "E");
+        cekCell("10-4", "R");
+
+        // Mendatar
+        cekCell("2-1", "D");
+        cekCell("2-2", "N");
+        cekCell("2-3", "S");
+
+        cekCell("3-3", "B");
+        cekCell("3-4", "A");
+        cekCell("3-5", "L");
+        cekCell("3-6", "L");
+
+        cekCell("6-4", "A");
+        cekCell("6-5", "T");
+        cekCell("6-6", "E");
+
+        cekCell("8-1", "J");
+        cekCell("8-2", "A");
+        cekCell("8-3", "V");
+        cekCell("8-4", "A");
+
+        cekCell("9-3", "C");
+        cekCell("9-4", "E");
+        cekCell("9-5", "O");
+
+        // Update Skor
+
+        // T1
+        if ((cekCell("1-1", "I") == "correct") && (cekCell("2-1", "D") == "correct") && (cekCell("3-1", "E") == "correct")) {
+            score+=10;
+        }
+
+        // T2
+        if (
+        (cekCell("1-3", "U") == "correct") && 
+        (cekCell("2-3", "S") == "correct") && 
+        (cekCell("3-3", "B") == "correct")) {
+            score+=10;
+        }
+        // T3
+        if (
+          (cekCell("3-5", "L") == "correct") && 
+          (cekCell("4-5", "E") == "correct") && 
+          (cekCell("5-5", "F") == "correct") &&
+          (cekCell("6-5", "T") == "correct")) {
+            score+=10;
+        }
+
+        // T4
+        if (
+        (cekCell("7-3", "M") == "correct") && 
+        (cekCell("8-3", "V") == "correct") && 
+        (cekCell("9-3", "C") == "correct")) {
+            score+=10;
+        }
+
+        // T5
+        if (
+          (cekCell("8-4", "A") == "correct") && 
+          (cekCell("9-4", "E") == "correct") && 
+          (cekCell("10-4", "R") == "correct")) {
+            score+=10;
+        }
+
+        // D1
+        if (
+          (cekCell("2-1", "D") == "correct") && 
+          (cekCell("2-2", "N") == "correct") && 
+          (cekCell("2-3", "S") == "correct")) {
+            score+=10;
+        }
+        // D2
+        if (
+          (cekCell("3-3", "B") == "correct") && 
+          (cekCell("3-4", "A") == "correct") && 
+          (cekCell("3-5", "L") == "correct") &&
+          (cekCell("3-6", "L") == "correct")) {
+            score+=10;
+        }
+        // D3
+        if (
+          (cekCell("6-4", "A") == "correct") && 
+          (cekCell("6-5", "T") == "correct") && 
+          (cekCell("6-6", "E") == "correct")) {
+            score+=10;
+        }
+        // D4
+        if (
+          (cekCell("8-1", "J") == "correct") && 
+          (cekCell("8-2", "A") == "correct") && 
+          (cekCell("8-3", "V") == "correct") &&
+          (cekCell("8-4", "A") == "correct")) {
+            score+=10;
+        }
+        // D5
+        if (
+          (cekCell("9-3", "C") == "correct") && 
+          (cekCell("9-4", "E") == "correct") && 
+          (cekCell("9-5", "O") == "correct")) {
+            score+=10;
+        }
+
+        // Print Score (1 Soal = 10 Poin)
+        document.getElementById('score').innerText = `Skor: ${score}/100`;
+      };
+
+      // Reset Page
+      document.getElementById("reset").onclick = function () {
+        window.location.reload();
+      };
+
+      // document.getElementById('score').innerText = `Score: ${score}/${total}`;
+    </script>
+
+  </body>
+</html>

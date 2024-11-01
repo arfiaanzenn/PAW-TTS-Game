@@ -1,0 +1,89 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+  }
+
+  td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  }
+
+  td input {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20pt;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    caret-color: transparent;
+    cursor: pointer;
+    margin: 2px;
+  }
+
+  td input:focus {
+    border: 2px solid #2b90d8;
+    outline: 1px solid #2b90d8;
+  }
+
+  button {
+    margin-bottom: 20px;
+  }
+
+  label {
+    position: absolute;
+    padding: 5px;
+    font-size: 10pt;
+  }
+
+  .correct {
+    background-color: rgb(12, 187, 12);
+  }
+
+  .wrong {
+    background-color: rgb(200, 42, 42);
+  }
+
+  .text-white {
+    color: #fff;
+  }
+
+  .cek_jawaban {
+    padding: 8px;
+    background-color: #bed82b;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14pt;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .cek_jawaban:hover {
+    background-color: rgb(121, 162, 25);
+  }
+
+  .reset {
+    padding: 8px;
+    background-color: #030303;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 14pt;
+  }
+
+  .reset:hover {
+    background-color: rgb(51, 50, 50);
+  }
+
+  .container {
+    display: flex;
+    gap: 30px;
+  }
